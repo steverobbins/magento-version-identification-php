@@ -1,0 +1,20 @@
+{
+    "name": "steverobbins/magento-version-identification",
+    "description": "A compiled list of files and their md5 hashes used to determine a Magento site's version",
+    "license": "CC-BY-4.0",
+    "authors": [
+        {
+            "name": "Steve Robbins",
+            "email": "steve@steverobbins.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "bin": ["bin/mvi"]
+}
