@@ -1,5 +1,7 @@
 # Magento Version Identification PHP
 
+![Packagist](https://img.shields.io/packagist/v/steverobbins/magento-version-identification.svg?style=flat-square)
+
 This is a PHP port of [Magento Version Identification](https://github.com/gwillem/magento-version-identification)
 
 ---
