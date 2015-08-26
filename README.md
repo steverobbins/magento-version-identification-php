@@ -18,6 +18,14 @@ curl -sS https://getcomposer.org/installer | php
 php composer.phar install
 ```
 
+## With Composer
+
+```
+"require": {
+    "steverobbins/magento-version-identification": "dev-master"
+}
+```
+
 # Usage
 
 Download your desired version(s) of Magento and place them in the `release` folder.  They should be named `CE-1.0`, `CE-1.1.0`, `EE-1.14.1.0`, etc.
