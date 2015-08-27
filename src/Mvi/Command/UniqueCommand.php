@@ -28,7 +28,7 @@ class UniqueCommand extends MviCommand
     const EDITION_SHORT_ENTERPRISE = 'EE';
     const EDITION_SHORT_COMMUNITY  = 'CE';
     const EDITION_LONG_ENTERPRISE  = 'Enterprise';
-    const EDITION_LONG_COMMUNITY   = 'Ccommunity';
+    const EDITION_LONG_COMMUNITY   = 'Community';
 
     /**
      * Configure generate command
@@ -171,7 +171,7 @@ class UniqueCommand extends MviCommand
         list($edition, $version) = explode('-', $name);
         switch ($edition) {
             case self::EDITION_SHORT_ENTERPRISE:
-                $edition = self::EDITION_SHORT_ENTERPRISE;
+                $edition = self::EDITION_LONG_ENTERPRISE;
                 break;
             case self::EDITION_SHORT_COMMUNITY:
                 $edition = self::EDITION_LONG_COMMUNITY;
