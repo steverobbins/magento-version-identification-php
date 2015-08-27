@@ -14,31 +14,31 @@
         ],
         "84b67457247969a206456565111c456b": [
             "Community",
-            "1.1.2"
+            "1.1.2, 1.1.3, 1.1.4"
         ],
         "5b7a27313258f87ebd4ecb545929d9e9": [
             "Community",
-            "1.1.5"
+            "1.1.5, 1.1.6"
         ],
         "b17593f892e24469429ffd693573778c": [
             "Community",
-            "1.1.7"
+            "1.1.7, 1.1.8"
         ],
         "6aefb246b1bb817077e8fca6ae53bf2c": [
             "Community",
-            "1.2.0"
+            "1.2.0, 1.2.0.1, 1.2.0.2, 1.2.0.3"
         ],
         "a2c7f9ddda846ba76220d7bcbe85c985": [
             "Community",
-            "1.2.1"
+            "1.2.1, 1.2.1.1, 1.2.1.2"
         ],
         "28b1eedec9811e496644257f610e2af3": [
             "Community",
-            "1.3.0"
+            "1.3.0, 1.3.1, 1.3.1.1"
         ],
         "18c9de4b13f66453034ca520b3208309": [
             "Community",
-            "1.3.2"
+            "1.3.2, 1.3.2.1, 1.3.2.2, 1.3.2.3, 1.3.2.4"
         ],
         "76a565d95fa10e5449bf63549bc5c76b": [
             "Community",
@@ -46,11 +46,11 @@
         ],
         "686f24855e51739f16b9f5ced362381d": [
             "Community",
-            "1.4.0.0"
+            "1.4.0.0, 1.4.0.1"
         ],
         "7e79d308d3cdff2796fc8f3ea58bea83": [
             "Community",
-            "1.4.1.0"
+            "1.4.1.0, 1.4.1.1"
         ],
         "5b537e36cb7b2670500a384f290bcaf8": [
             "Community",
@@ -66,7 +66,7 @@
         ],
         "487698cbac89beffa9d2556cc681f571": [
             "Community",
-            "1.6.0.0"
+            "1.6.0.0, 1.6.1.0, 1.6.2.0"
         ],
         "1cbeca223c2e15dcaf500caa5d05b4ed": [
             "Community",
@@ -74,15 +74,15 @@
         ],
         "5903fadb2d1344922df0aafb49791df8": [
             "Community",
-            "1.7.0.1"
+            "1.7.0.1, 1.7.0.2, 1.8.0.0"
         ],
         "4124f1904f8c3fb40675bbff6268d017": [
             "Community",
-            "1.8.1.0"
+            "1.8.1.0, 1.9.0.0, 1.9.0.1"
         ],
         "ba8dd746c8468bfd1cff5c77eadc71a4": [
             "Community",
-            "1.9.1.0"
+            "1.9.1.0, 1.9.1.1, 1.9.2.0"
         ],
         "61e47784d7254e531bb6ce3991d68487": [
             "Community",
@@ -110,11 +110,11 @@
         ],
         "8a5c088b435dbcf1bbaac9755d4ed45f": [
             "Enterprise",
-            "1.12.0.1"
+            "1.12.0.1, 1.12.0.2"
         ],
         "ffa8543ece0cc4d7f8093bbea2e29473": [
             "Enterprise",
-            "1.13.0.0"
+            "1.13.0.0, 1.13.0.2"
         ],
         "3c92a14ac461a1314291d4ad91f1f858": [
             "Enterprise",
@@ -122,7 +122,7 @@
         ],
         "31f79aa5159997fa0436c02abe06569d": [
             "Enterprise",
-            "1.14.0.0"
+            "1.14.0.0, 1.14.0.1"
         ],
         "89c7b659d4e60aabd705af87f0014524": [
             "Enterprise",
@@ -131,126 +131,6 @@
         "89e986c50a1efe2e0f1a5f688ca21914": [
             "Enterprise",
             "1.14.2.0"
-        ]
-    },
-    "js/mage/adminhtml/sales.js": {
-        "63243402a872958f272924de5434dcc3": [
-            "Community",
-            "1.1.3"
-        ],
-        "17da0470950e8dd4b30ccb787b1605f5": [
-            "Community",
-            "1.1.6"
-        ],
-        "5112f328e291234a943684928ebd3d33": [
-            "Community",
-            "1.1.8"
-        ],
-        "0041b3bccf0bf7ac73aeaaf5f69dc0c0": [
-            "Community",
-            "1.2.0.1"
-        ],
-        "d1bfb9f8d4c83e4a6a826d2356a97fd7": [
-            "Community",
-            "1.3.1"
-        ],
-        "0e400488c83e63110da75534f49f23f3": [
-            "Community",
-            "1.3.2.1"
-        ],
-        "3a04204da43705909fe7e96a91a3e483": [
-            "Community",
-            "1.4.0.1"
-        ],
-        "9bf7964590246634c4f6117e33fa8b9d": [
-            "Community",
-            "1.4.1.1"
-        ],
-        "48d609bb2958b93d7254c13957b704c4": [
-            "Community",
-            "1.6.1.0"
-        ],
-        "a1df25cf1fe8c45c6efe0e8816690b43": [
-            "Community",
-            "1.7.0.2"
-        ],
-        "26c8fd113b4e51aeffe200ce7880b67a": [
-            "Community",
-            "1.8.0.0"
-        ],
-        "1cb6e72078c384df2d62745e34060fed": [
-            "Community",
-            "1.9.0.0"
-        ],
-        "c8dd0fd8fa3faa9b9f0dd767b5a2c995": [
-            "Community",
-            "1.9.1.1"
-        ],
-        "f00ae624ec9e9ee7a2d4f1df5d234a62": [
-            "Enterprise",
-            "1.12.0.2"
-        ],
-        "3fe31e1608e6d4f525d5db227373c5a0": [
-            "Enterprise",
-            "1.13.0.2"
-        ],
-        "86e8bca8057d2dd65ae3379adca0afff": [
-            "Enterprise",
-            "1.14.0.1"
-        ]
-    },
-    "js/varien/product.js": {
-        "95ef053e99abe14f91539e3ae88f858f": [
-            "Community",
-            "1.1.4"
-        ],
-        "6af30941970891608b0be568896946db": [
-            "Community",
-            "1.2.0.2"
-        ],
-        "eb55756529af0fcd288ce8ea903e8e4a": [
-            "Community",
-            "1.2.1.1"
-        ],
-        "e4569380256d6472c528ca218f932814": [
-            "Community",
-            "1.6.2.0"
-        ],
-        "f6ea908b15c52ffad6d34f59a538e6ad": [
-            "Community",
-            "1.9.0.1"
-        ],
-        "78881d8a1e4a87126cc87741177e1250": [
-            "Community",
-            "1.9.2.0"
-        ]
-    },
-    "js/mage/adminhtml/tools.js": {
-        "b30a1ef421c635243cc68b950c80da43": [
-            "Community",
-            "1.2.0.3"
-        ],
-        "ea81bcf8d9b8fcddb27fb9ec7f801172": [
-            "Community",
-            "1.3.2.2"
-        ],
-        "d594237950932b9a3948288a020df1ba": [
-            "Community",
-            "1.3.2.3"
-        ]
-    },
-    "js/mage/adminhtml/product.js": {
-        "ad41c243097cf0b30af2ae5556d1100a": [
-            "Community",
-            "1.2.1.2"
-        ],
-        "5f85ae33d6985ed23b597ea09a092d37": [
-            "Community",
-            "1.3.1.1"
-        ],
-        "fe628016e957d30e1db0be7a91cb35ad": [
-            "Community",
-            "1.3.2.4"
         ]
     }
 }

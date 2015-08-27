@@ -48,18 +48,16 @@ class UniqueCommand extends MviCommand
         $data           = $this->collectData();
         $fileHashCounts = $this->buildFileHashCounts($data);
         $fingerprints   = [];
-        $usedHashes     = [];
         while (count($data) > 0) {
             $file = key($fileHashCounts);
             $versionsWithThisFile = [];
             foreach ($data as $release => $value) {
                 $fileHash = array_flip($value);
-                if (isset($fileHash[$file]) && !in_array($fileHash[$file], $usedHashes)) {
-                    $usedHashes[] = $fileHash[$file];
+                if (isset($fileHash[$file])) {
                     if (!isset($fingerprints[$file])) {
                         $fingerprints[$file] = [];
                     }
-                    $fingerprints[$file][$fileHash[$file]] = $this->prepareReleaseName($release);
+                    $this->prepareReleaseName($release, $fingerprints[$file][$fileHash[$file]]);
                     $output->writeln(sprintf(
                         '<info>%s</info> can be identified by <info>%s</info> with hash <info>%s</info>',
                         $release,
@@ -148,10 +146,11 @@ class UniqueCommand extends MviCommand
      * Take the release short name and expand
      *
      * @param string $name
+     * @param array  $existing
      *
      * @return string[]
      */
-    protected function prepareReleaseName($name)
+    protected function prepareReleaseName($name, &$existing)
     {
         list($edition, $version) = explode('-', $name);
         switch ($edition) {
@@ -162,6 +161,9 @@ class UniqueCommand extends MviCommand
                 $edition = 'Community';
                 break;
         }
-        return array($edition, $version);
+        $existing = [
+            $edition,
+            isset($existing[1]) ? $existing[1] . ', ' . $version : $version
+        ];
     }
 }
