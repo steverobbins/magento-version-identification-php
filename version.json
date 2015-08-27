@@ -84,6 +84,50 @@
             "Enterprise": [
                 "1.14.2.0"
             ]
+        },
+        "b17593f892e24469429ffd693573778c": {
+            "Community": [
+                "1.1.7.0",
+                "1.1.8.0"
+            ]
+        },
+        "8a5c088b435dbcf1bbaac9755d4ed45f": {
+            "Enterprise": [
+                "1.12.0.1",
+                "1.12.0.2"
+            ]
+        },
+        "ffa8543ece0cc4d7f8093bbea2e29473": {
+            "Enterprise": [
+                "1.13.0.0",
+                "1.13.0.2"
+            ]
+        },
+        "31f79aa5159997fa0436c02abe06569d": {
+            "Enterprise": [
+                "1.14.0.0",
+                "1.14.0.1"
+            ]
+        },
+        "84b67457247969a206456565111c456b": {
+            "Community": [
+                "1.1.2.0",
+                "1.1.3.0",
+                "1.1.4.0"
+            ]
+        },
+        "a2c7f9ddda846ba76220d7bcbe85c985": {
+            "Community": [
+                "1.2.1.0",
+                "1.2.1.1",
+                "1.2.1.2"
+            ]
+        },
+        "18c9de4b13f66453034ca520b3208309": {
+            "Community": [
+                "1.3.2.0",
+                "1.3.2.1"
+            ]
         }
     },
     "js/mage/adminhtml/sales.js": {
@@ -106,6 +150,24 @@
             "Community": [
                 "1.9.1.0"
             ]
+        },
+        "d1bfb9f8d4c83e4a6a826d2356a97fd7": {
+            "Community": [
+                "1.3.1.0",
+                "1.3.1.1"
+            ]
+        },
+        "48d609bb2958b93d7254c13957b704c4": {
+            "Community": [
+                "1.6.1.0",
+                "1.6.2.0"
+            ]
+        },
+        "1cb6e72078c384df2d62745e34060fed": {
+            "Community": [
+                "1.9.0.0",
+                "1.9.0.1"
+            ]
         }
     },
     "js/mage/adminhtml/tools.js": {
@@ -113,19 +175,17 @@
             "Community": [
                 "1.3.2.2"
             ]
-        }
-    },
-    "js/mage/adminhtml/product.js": {
-        "e887acfc2f7af09e04f8e99ac6f7180d": {
+        },
+        "86bbebe2745581cd8f613ceb5ef82269": {
             "Community": [
-                "1.3.0.0"
+                "1.7.0.1",
+                "1.7.0.2"
             ]
-        }
-    },
-    "js/varien/form.js": {
-        "c61dd0cb4508672e6223c84344fc2552": {
+        },
+        "d594237950932b9a3948288a020df1ba": {
             "Community": [
-                "1.9.1.1"
+                "1.3.2.3",
+                "1.3.2.4"
             ]
         }
     },
@@ -153,122 +213,40 @@
             ]
         }
     },
-    "skin/frontend/rwd/default/css/styles.css": {
-        "8a874fcb6cdcb82947ee4dbbe1822f3e": {
+    "js/mage/adminhtml/form.js": {
+        "55bf99ca0637cea2692aa3f455b8397f": {
             "Community": [
-                "1.9.0.0"
+                "1.9.1.1"
             ]
         },
-        "bf6c8e2ba2fc5162dd5187b39626a3a0": {
-            "Community": [
-                "1.9.0.1"
-            ]
-        },
-        "bd66fd43fecd7ca1e293226bb11e1658": {
-            "Enterprise": [
-                "1.14.0.0"
-            ]
-        },
-        "5373978891051983da47ac5064b4b2b9": {
-            "Enterprise": [
-                "1.14.0.1"
-            ]
-        }
-    },
-    "js/mage/adminhtml/moneybookers.js": {
-        "2e73a1ba00fdbe083e75e8877ecba7c4": {
+        "ffeeeb0c75d2461b192bcb605402e96e": {
             "Community": [
                 "1.9.2.0"
             ]
         }
     },
-    "skin/frontend/default/default/css/iestyles.css": {
-        "e1b48e12cd27fe7d65d2978f7eabd594": {
+    "skin/frontend/default/default/css/boxes.css": {
+        "33c5479bdb99680961348361b4e1d560": {
+            "Community": [
+                "1.2.0.0",
+                "1.2.0.1",
+                "1.2.0.2",
+                "1.2.0.3"
+            ]
+        }
+    },
+    "skin/install/default/default/css/custom.css": {
+        "028bdd180f6b6afc2e6bedfbf62fd479": {
             "Community": [
                 "1.1.5.0",
                 "1.1.6.0"
             ]
         }
     },
-    "js/calendar/calendar.js": {
-        "45876c4994a8102c77940ef6e1cf9cdf": {
+    "js/mage/adminhtml/product.js": {
+        "e887acfc2f7af09e04f8e99ac6f7180d": {
             "Community": [
-                "1.3.1.0",
-                "1.3.1.1"
-            ]
-        }
-    },
-    "skin/frontend/default/default/css/clears.css": {
-        "959467d981c977b267b8f1065871669b": {
-            "Community": [
-                "1.1.7.0",
-                "1.1.8.0"
-            ]
-        }
-    },
-    "skin/frontend/enterprise/iphone/js/iphone.js": {
-        "e4d102bdcd9761ce7f0deb054591b4ef": {
-            "Enterprise": [
-                "1.12.0.1",
-                "1.12.0.2"
-            ]
-        },
-        "fc32e94a72b97e241862571410c0ebc4": {
-            "Enterprise": [
-                "1.13.0.0",
-                "1.13.0.2"
-            ]
-        }
-    },
-    "skin/frontend/default/iphone/js/modernizr.js": {
-        "770dda507a72bbb3b9cc82273b8f4159": {
-            "Community": [
-                "1.7.0.1",
-                "1.7.0.2"
-            ]
-        }
-    },
-    "skin/frontend/default/iphone/js/opcheckout.js": {
-        "bdaabef11172e39cb9225509024ce5e2": {
-            "Community": [
-                "1.6.1.0",
-                "1.6.2.0"
-            ]
-        }
-    },
-    "skin/frontend/default/default/js/giftmessage.js": {
-        "a9e599c4e4f54a0ecdd2243829c5cf63": {
-            "Community": [
-                "1.1.2.0",
-                "1.1.3.0",
-                "1.1.4.0"
-            ]
-        }
-    },
-    "skin/frontend/default/blue/js/opcheckout.js": {
-        "be70f709d12ef646b18442449495dc8c": {
-            "Community": [
-                "1.3.2.0",
-                "1.3.2.1"
-            ]
-        },
-        "4cbc2da02c7f474976216fc1a8569216": {
-            "Community": [
-                "1.3.2.3",
-                "1.3.2.4"
-            ]
-        }
-    },
-    "skin/adminhtml/default/default/images/image.jpg": {
-        "8bb024e8d1ea0fec5dc06d92ad2262e9": {
-            "Community": [
-                "1.2.0.0",
-                "1.2.0.1",
-                "1.2.0.2",
-                "1.2.0.3",
-                "1.2.1.0",
-                "1.2.1.1",
-                "1.2.1.2"
+                "1.3.0.0"
             ]
         }
     }

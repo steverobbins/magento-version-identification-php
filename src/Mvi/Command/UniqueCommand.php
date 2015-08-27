@@ -23,12 +23,17 @@ class UniqueCommand extends MviCommand
 {
     const VERSION_DESTINATION = 'version.json';
 
-    const ACCURACY_FACTOR = 100;
+    const ACCURACY_FACTOR = 500;
 
     const EDITION_SHORT_ENTERPRISE = 'EE';
     const EDITION_SHORT_COMMUNITY  = 'CE';
     const EDITION_LONG_ENTERPRISE  = 'Enterprise';
     const EDITION_LONG_COMMUNITY   = 'Community';
+
+    protected $fileIgnorePatterns = [
+        "/\/rwd\//",
+        "/[^(js|css)]$/",
+    ];
 
     /**
      * Configure generate command
@@ -60,26 +65,11 @@ class UniqueCommand extends MviCommand
             $accuracy = ceil(++$tries / self::ACCURACY_FACTOR);
             $file     = key($fileHashCounts);
             foreach ($data as $release => $value) {
-                $fileHash = array_flip($value);
-                if (isset($fileHash[$file]) && count($fileHashCounts[$file][$fileHash[$file]]) <= $accuracy) {
-                    if (!isset($fingerprints[$file])) {
-                        $fingerprints[$file] = [];
-                    }
-                    $this->prepareReleaseName($release, $fingerprints[$file][$fileHash[$file]]);
-                    $output->writeln(sprintf(
-                        '<info>%s</info> can be identified by <info>%s</info> with hash <info>%s</info>',
-                        $release,
-                        $file,
-                        $fileHash[$file]
-                    ));
-                    unset($data[$release]);
-                }
+                $this->identify($value, $file, $fileHashCounts, $accuracy, $fingerprints, $release, $data, $output);
             }
-            unset($fileHashCounts[$file]);
-            reset($fileHashCounts);
+            next($fileHashCounts) ?: reset($fileHashCounts);
         }
-        $json = str_replace('\\/', '/', json_encode($fingerprints, JSON_PRETTY_PRINT));
-        if (file_put_contents($this->baseDir . DS . self::VERSION_DESTINATION, $json)) {
+        if ($this->saveUniqueVersions($fingerprints)) {
             $output->writeln(sprintf('Unique hashes written to <info>%s</info>', self::VERSION_DESTINATION));
         } else {
             $output->writeln('<error>Failed to write unique hashes to file</error>');
@@ -110,8 +100,13 @@ class UniqueCommand extends MviCommand
                 if (strlen($line) === 0) {
                     continue;
                 }
-                $bits = explode(' ', $line);
-                $data[$release][$bits[0]] = $bits[1];
+                list($hash, $file) = explode(' ', $line);
+                foreach ($this->fileIgnorePatterns as $pattern) {
+                    if (preg_match($pattern, $file)) {
+                        continue 2;
+                    }
+                }
+                $data[$release][$hash] = $file;
             }
         }
         return $data;
@@ -184,5 +179,61 @@ class UniqueCommand extends MviCommand
             $existing[$edition] = [];
         }
         $existing[$edition][] = $version;
+    }
+
+    /**
+     * Add file/hash/release combo to fingerprints if accurate enough
+     *
+     * @param array           $value
+     * @param string          $file
+     * @param array           $fileHashCounts
+     * @param string          $accuracy
+     * @param array           $fingerprints
+     * @param string          $release
+     * @param array           $data
+     * @param OutputInterface $output
+     *
+     * @return void
+     */
+    protected function identify(
+        array $value,
+        $file,
+        array $fileHashCounts,
+        $accuracy,
+        &$fingerprints,
+        $release,
+        array &$data,
+        OutputInterface $output
+    ) {
+        $fileHash = array_flip($value);
+        if (isset($fileHash[$file]) && count($fileHashCounts[$file][$fileHash[$file]]) <= $accuracy) {
+            if (!isset($fingerprints[$file])) {
+                $fingerprints[$file] = [];
+            }
+            $this->prepareReleaseName($release, $fingerprints[$file][$fileHash[$file]]);
+            $output->writeln(sprintf(
+                '<info>%s</info> can be identified by <info>%s</info> with hash <info>%s</info>',
+                $release,
+                $file,
+                $fileHash[$file]
+            ));
+            unset($data[$release]);
+        }
+    }
+
+    /**
+     * Save fingerprints to file
+     *
+     * @param array $fingerprints
+     *
+     * @return integer
+     */
+    protected function saveUniqueVersions($fingerprints)
+    {
+        uasort($fingerprints, function ($a, $b) {
+            return count($b) - count($a);
+        });
+        $json = str_replace('\\/', '/', json_encode($fingerprints, JSON_PRETTY_PRINT));
+        return file_put_contents($this->baseDir . DS . self::VERSION_DESTINATION, $json);
     }
 }
