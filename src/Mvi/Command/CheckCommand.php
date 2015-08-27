@@ -50,7 +50,6 @@ class CheckCommand extends MviCommand
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $url     = $input->getArgument('url');
         $checker = new Check($input->getArgument('url'));
         $info    = $checker->getInfo();
         if ($info === false) {

@@ -59,7 +59,6 @@ class UniqueCommand extends MviCommand
         while (count($data) > 0) {
             $accuracy = ceil(++$tries / self::ACCURACY_FACTOR);
             $file     = key($fileHashCounts);
-            $versionsWithThisFile = [];
             foreach ($data as $release => $value) {
                 $fileHash = array_flip($value);
                 if (isset($fileHash[$file]) && count($fileHashCounts[$file][$fileHash[$file]]) <= $accuracy) {

@@ -1,0 +1,8 @@
+filter:
+    excluded_paths:
+        - 'bin/*'
+checks:
+    php: true
+build_failure_conditions:
+    - 'elements.rating(<= D).new.exists'
+    - 'issues.new.exists'
