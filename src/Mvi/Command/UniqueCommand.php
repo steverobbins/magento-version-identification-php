@@ -13,7 +13,6 @@
 namespace Mvi\Command;
 
 use Mvi\Command\MviCommand;
-use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

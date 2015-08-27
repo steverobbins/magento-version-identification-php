@@ -43,3 +43,9 @@ To update the `version.json` file with unique hashes, run the `unique` command.
 ```
 ./bin/mvi unique
 ```
+
+To find the edition and version of a Magento installation, use the `check` command.
+
+```
+./bin/mvi check http://demo.magentocommerce.com/
+```
