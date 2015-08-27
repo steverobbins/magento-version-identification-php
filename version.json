@@ -127,6 +127,10 @@
         "89c7b659d4e60aabd705af87f0014524": [
             "Enterprise",
             "1.14.1.0"
+        ],
+        "89e986c50a1efe2e0f1a5f688ca21914": [
+            "Enterprise",
+            "1.14.2.0"
         ]
     },
     "js/mage/adminhtml/sales.js": {
@@ -221,32 +225,30 @@
             "1.9.2.0"
         ]
     },
-    "js/mage/adminhtml/product.js": {
-        "ad41c243097cf0b30af2ae5556d1100a": [
-            "Community",
-            "1.2.0.3"
-        ],
-        "5f85ae33d6985ed23b597ea09a092d37": [
-            "Community",
-            "1.3.1.1"
-        ],
-        "fe628016e957d30e1db0be7a91cb35ad": [
-            "Community",
-            "1.3.2.2"
-        ]
-    },
     "js/mage/adminhtml/tools.js": {
         "b30a1ef421c635243cc68b950c80da43": [
             "Community",
-            "1.2.1.2"
+            "1.2.0.3"
+        ],
+        "ea81bcf8d9b8fcddb27fb9ec7f801172": [
+            "Community",
+            "1.3.2.2"
         ],
         "d594237950932b9a3948288a020df1ba": [
             "Community",
             "1.3.2.3"
         ]
     },
-    "js/varien/js.js": {
-        "ec02b3509d57cc13f80eaf862d4b0402": [
+    "js/mage/adminhtml/product.js": {
+        "ad41c243097cf0b30af2ae5556d1100a": [
+            "Community",
+            "1.2.1.2"
+        ],
+        "5f85ae33d6985ed23b597ea09a092d37": [
+            "Community",
+            "1.3.1.1"
+        ],
+        "fe628016e957d30e1db0be7a91cb35ad": [
             "Community",
             "1.3.2.4"
         ]
