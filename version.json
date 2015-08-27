@@ -1,136 +1,275 @@
 {
     "skin/adminhtml/default/default/boxes.css": {
-        "0e8a85aee65699c9cfaed8166d2ee678": [
-            "Community",
-            "1.0"
-        ],
-        "29651cb812ad5a4b916d1da525df09ff": [
-            "Community",
-            "1.1.0"
-        ],
-        "d0511b190cdddf865cca7873917f9a69": [
-            "Community",
-            "1.1.1"
-        ],
-        "84b67457247969a206456565111c456b": [
-            "Community",
-            "1.1.2, 1.1.3, 1.1.4"
-        ],
-        "5b7a27313258f87ebd4ecb545929d9e9": [
-            "Community",
-            "1.1.5, 1.1.6"
-        ],
-        "b17593f892e24469429ffd693573778c": [
-            "Community",
-            "1.1.7, 1.1.8"
-        ],
-        "6aefb246b1bb817077e8fca6ae53bf2c": [
-            "Community",
-            "1.2.0, 1.2.0.1, 1.2.0.2, 1.2.0.3"
-        ],
-        "a2c7f9ddda846ba76220d7bcbe85c985": [
-            "Community",
-            "1.2.1, 1.2.1.1, 1.2.1.2"
-        ],
-        "28b1eedec9811e496644257f610e2af3": [
-            "Community",
-            "1.3.0, 1.3.1, 1.3.1.1"
-        ],
-        "18c9de4b13f66453034ca520b3208309": [
-            "Community",
-            "1.3.2, 1.3.2.1, 1.3.2.2, 1.3.2.3, 1.3.2.4"
-        ],
-        "76a565d95fa10e5449bf63549bc5c76b": [
-            "Community",
-            "1.3.3.0"
-        ],
-        "686f24855e51739f16b9f5ced362381d": [
-            "Community",
-            "1.4.0.0, 1.4.0.1"
-        ],
-        "7e79d308d3cdff2796fc8f3ea58bea83": [
-            "Community",
-            "1.4.1.0, 1.4.1.1"
-        ],
-        "5b537e36cb7b2670500a384f290bcaf8": [
-            "Community",
-            "1.4.2.0"
-        ],
-        "30a39f4046f3daba55cfbe0e1ca44b4c": [
-            "Community",
-            "1.5.0.1"
-        ],
-        "adca1795a4c58ce6a6332ceb2a6c5335": [
-            "Community",
-            "1.5.1.0"
-        ],
-        "487698cbac89beffa9d2556cc681f571": [
-            "Community",
-            "1.6.0.0, 1.6.1.0, 1.6.2.0"
-        ],
-        "1cbeca223c2e15dcaf500caa5d05b4ed": [
-            "Community",
-            "1.7.0.0"
-        ],
-        "5903fadb2d1344922df0aafb49791df8": [
-            "Community",
-            "1.7.0.1, 1.7.0.2, 1.8.0.0"
-        ],
-        "4124f1904f8c3fb40675bbff6268d017": [
-            "Community",
-            "1.8.1.0, 1.9.0.0, 1.9.0.1"
-        ],
-        "ba8dd746c8468bfd1cff5c77eadc71a4": [
-            "Community",
-            "1.9.1.0, 1.9.1.1, 1.9.2.0"
-        ],
-        "61e47784d7254e531bb6ce3991d68487": [
-            "Community",
-            "1.9.2.1"
-        ],
-        "dd6fbd6cc6376045b3a62a823af9a361": [
-            "Enterprise",
-            "1.10.0.2"
-        ],
-        "6b5b0372fbeb93675bfabe24d594bd02": [
-            "Enterprise",
-            "1.10.1.1"
-        ],
-        "b497d3538b1c18012455527f267bef53": [
-            "Enterprise",
-            "1.11.0.2"
-        ],
-        "e895117cde7ba3305769bc1317a47818": [
-            "Enterprise",
-            "1.11.2.0"
-        ],
-        "0902e89fb50b22d44f8242954a89300c": [
-            "Enterprise",
-            "1.12.0.0"
-        ],
-        "8a5c088b435dbcf1bbaac9755d4ed45f": [
-            "Enterprise",
-            "1.12.0.1, 1.12.0.2"
-        ],
-        "ffa8543ece0cc4d7f8093bbea2e29473": [
-            "Enterprise",
-            "1.13.0.0, 1.13.0.2"
-        ],
-        "3c92a14ac461a1314291d4ad91f1f858": [
-            "Enterprise",
-            "1.13.1.0"
-        ],
-        "31f79aa5159997fa0436c02abe06569d": [
-            "Enterprise",
-            "1.14.0.0, 1.14.0.1"
-        ],
-        "89c7b659d4e60aabd705af87f0014524": [
-            "Enterprise",
-            "1.14.1.0"
-        ],
-        "89e986c50a1efe2e0f1a5f688ca21914": [
-            "Enterprise",
-            "1.14.2.0"
-        ]
+        "0e8a85aee65699c9cfaed8166d2ee678": {
+            "Ccommunity": [
+                "1.0"
+            ]
+        },
+        "29651cb812ad5a4b916d1da525df09ff": {
+            "Ccommunity": [
+                "1.1.0"
+            ]
+        },
+        "d0511b190cdddf865cca7873917f9a69": {
+            "Ccommunity": [
+                "1.1.1"
+            ]
+        },
+        "76a565d95fa10e5449bf63549bc5c76b": {
+            "Ccommunity": [
+                "1.3.3.0"
+            ]
+        },
+        "5b537e36cb7b2670500a384f290bcaf8": {
+            "Ccommunity": [
+                "1.4.2.0"
+            ]
+        },
+        "30a39f4046f3daba55cfbe0e1ca44b4c": {
+            "Ccommunity": [
+                "1.5.0.1"
+            ]
+        },
+        "adca1795a4c58ce6a6332ceb2a6c5335": {
+            "Ccommunity": [
+                "1.5.1.0"
+            ]
+        },
+        "1cbeca223c2e15dcaf500caa5d05b4ed": {
+            "Ccommunity": [
+                "1.7.0.0"
+            ]
+        },
+        "61e47784d7254e531bb6ce3991d68487": {
+            "Ccommunity": [
+                "1.9.2.1"
+            ]
+        },
+        "dd6fbd6cc6376045b3a62a823af9a361": {
+            "EE": [
+                "1.10.0.2"
+            ]
+        },
+        "6b5b0372fbeb93675bfabe24d594bd02": {
+            "EE": [
+                "1.10.1.1"
+            ]
+        },
+        "b497d3538b1c18012455527f267bef53": {
+            "EE": [
+                "1.11.0.2"
+            ]
+        },
+        "e895117cde7ba3305769bc1317a47818": {
+            "EE": [
+                "1.11.2.0"
+            ]
+        },
+        "0902e89fb50b22d44f8242954a89300c": {
+            "EE": [
+                "1.12.0.0"
+            ]
+        },
+        "3c92a14ac461a1314291d4ad91f1f858": {
+            "EE": [
+                "1.13.1.0"
+            ]
+        },
+        "89c7b659d4e60aabd705af87f0014524": {
+            "EE": [
+                "1.14.1.0"
+            ]
+        },
+        "89e986c50a1efe2e0f1a5f688ca21914": {
+            "EE": [
+                "1.14.2.0"
+            ]
+        }
+    },
+    "js/mage/adminhtml/sales.js": {
+        "a4296235ba7ad200dd042fa5200c11b0": {
+            "Ccommunity": [
+                "1.6.0.0"
+            ]
+        },
+        "26c8fd113b4e51aeffe200ce7880b67a": {
+            "Ccommunity": [
+                "1.8.0.0"
+            ]
+        },
+        "5656a8c1c646afaaf260a130fe405691": {
+            "Ccommunity": [
+                "1.8.1.0"
+            ]
+        },
+        "a0436f1eee62dded68e0ec860baeb699": {
+            "Ccommunity": [
+                "1.9.1.0"
+            ]
+        }
+    },
+    "js/mage/adminhtml/tools.js": {
+        "ea81bcf8d9b8fcddb27fb9ec7f801172": {
+            "Ccommunity": [
+                "1.3.2.2"
+            ]
+        }
+    },
+    "js/mage/adminhtml/product.js": {
+        "e887acfc2f7af09e04f8e99ac6f7180d": {
+            "Ccommunity": [
+                "1.3.0"
+            ]
+        }
+    },
+    "js/varien/form.js": {
+        "c61dd0cb4508672e6223c84344fc2552": {
+            "Ccommunity": [
+                "1.9.1.1"
+            ]
+        }
+    },
+    "js/lib/flex.js": {
+        "eb84fc6c93a9d27823dde31946be8767": {
+            "Ccommunity": [
+                "1.4.0.0"
+            ]
+        },
+        "4040182326f3836f98acabfe1d507960": {
+            "Ccommunity": [
+                "1.4.0.1"
+            ]
+        }
+    },
+    "js/prototype/validation.js": {
+        "295494d0966637bdd03e4ec17c2f338c": {
+            "Ccommunity": [
+                "1.4.1.0"
+            ]
+        },
+        "d3252becf15108532d21d45dced96d53": {
+            "Ccommunity": [
+                "1.4.1.1"
+            ]
+        }
+    },
+    "skin/frontend/rwd/default/css/styles.css": {
+        "8a874fcb6cdcb82947ee4dbbe1822f3e": {
+            "Ccommunity": [
+                "1.9.0.0"
+            ]
+        },
+        "bf6c8e2ba2fc5162dd5187b39626a3a0": {
+            "Ccommunity": [
+                "1.9.0.1"
+            ]
+        },
+        "bd66fd43fecd7ca1e293226bb11e1658": {
+            "EE": [
+                "1.14.0.0"
+            ]
+        },
+        "5373978891051983da47ac5064b4b2b9": {
+            "EE": [
+                "1.14.0.1"
+            ]
+        }
+    },
+    "js/mage/adminhtml/moneybookers.js": {
+        "2e73a1ba00fdbe083e75e8877ecba7c4": {
+            "Ccommunity": [
+                "1.9.2.0"
+            ]
+        }
+    },
+    "skin/frontend/default/default/css/iestyles.css": {
+        "e1b48e12cd27fe7d65d2978f7eabd594": {
+            "Ccommunity": [
+                "1.1.5",
+                "1.1.6"
+            ]
+        }
+    },
+    "js/calendar/calendar.js": {
+        "45876c4994a8102c77940ef6e1cf9cdf": {
+            "Ccommunity": [
+                "1.3.1",
+                "1.3.1.1"
+            ]
+        }
+    },
+    "skin/frontend/default/default/css/clears.css": {
+        "959467d981c977b267b8f1065871669b": {
+            "Ccommunity": [
+                "1.1.7",
+                "1.1.8"
+            ]
+        }
+    },
+    "skin/frontend/enterprise/iphone/js/iphone.js": {
+        "e4d102bdcd9761ce7f0deb054591b4ef": {
+            "EE": [
+                "1.12.0.1",
+                "1.12.0.2"
+            ]
+        },
+        "fc32e94a72b97e241862571410c0ebc4": {
+            "EE": [
+                "1.13.0.0",
+                "1.13.0.2"
+            ]
+        }
+    },
+    "skin/frontend/default/iphone/js/modernizr.js": {
+        "770dda507a72bbb3b9cc82273b8f4159": {
+            "Ccommunity": [
+                "1.7.0.1",
+                "1.7.0.2"
+            ]
+        }
+    },
+    "skin/frontend/default/iphone/js/opcheckout.js": {
+        "bdaabef11172e39cb9225509024ce5e2": {
+            "Ccommunity": [
+                "1.6.1.0",
+                "1.6.2.0"
+            ]
+        }
+    },
+    "skin/frontend/default/default/js/giftmessage.js": {
+        "a9e599c4e4f54a0ecdd2243829c5cf63": {
+            "Ccommunity": [
+                "1.1.2",
+                "1.1.3",
+                "1.1.4"
+            ]
+        }
+    },
+    "skin/frontend/default/blue/js/opcheckout.js": {
+        "be70f709d12ef646b18442449495dc8c": {
+            "Ccommunity": [
+                "1.3.2",
+                "1.3.2.1"
+            ]
+        },
+        "4cbc2da02c7f474976216fc1a8569216": {
+            "Ccommunity": [
+                "1.3.2.3",
+                "1.3.2.4"
+            ]
+        }
+    },
+    "skin/adminhtml/default/default/images/image.jpg": {
+        "8bb024e8d1ea0fec5dc06d92ad2262e9": {
+            "Ccommunity": [
+                "1.2.0",
+                "1.2.0.1",
+                "1.2.0.2",
+                "1.2.0.3",
+                "1.2.1",
+                "1.2.1.1",
+                "1.2.1.2"
+            ]
+        }
     }
 }

@@ -23,6 +23,13 @@ class UniqueCommand extends MviCommand
 {
     const VERSION_DESTINATION = 'version.json';
 
+    const ACCURACY_FACTOR = 100;
+
+    const EDITION_SHORT_ENTERPRISE = 'EE';
+    const EDITION_SHORT_COMMUNITY  = 'CE';
+    const EDITION_LONG_ENTERPRISE  = 'Enterprise';
+    const EDITION_LONG_COMMUNITY   = 'Ccommunity';
+
     /**
      * Configure generate command
      *
@@ -48,12 +55,14 @@ class UniqueCommand extends MviCommand
         $data           = $this->collectData();
         $fileHashCounts = $this->buildFileHashCounts($data);
         $fingerprints   = [];
+        $tries          = 0;
         while (count($data) > 0) {
-            $file = key($fileHashCounts);
+            $accuracy = ceil(++$tries / self::ACCURACY_FACTOR);
+            $file     = key($fileHashCounts);
             $versionsWithThisFile = [];
             foreach ($data as $release => $value) {
                 $fileHash = array_flip($value);
-                if (isset($fileHash[$file])) {
+                if (isset($fileHash[$file]) && count($fileHashCounts[$file][$fileHash[$file]]) <= $accuracy) {
                     if (!isset($fingerprints[$file])) {
                         $fingerprints[$file] = [];
                     }
@@ -113,9 +122,17 @@ class UniqueCommand extends MviCommand
      * Get the most import files determined by how many unique hashes they have
      *
      * [
-     *     'skin/adminhtml/default/default/boxes.css' => 32,
-     *     'js/mage/adminhtml/sales.js'               => 31,
-     *     ....
+     *     'skin/adminhtml/default/default/boxes.css' => [
+     *         'abc123' => [
+     *             'CE-1.0'
+     *         ],
+     *         'efg456' => [
+     *             'CE-1.1.0',
+     *             'CE-1.1.1'
+     *         ],
+     *         ...
+     *     ],
+     *     ...
      * ]
      * 
      * @param array $data
@@ -125,20 +142,20 @@ class UniqueCommand extends MviCommand
     protected function buildFileHashCounts(array $data)
     {
         $counts = [];
-        foreach ($data as $value) {
+        foreach ($data as $release => $value) {
             foreach ($value as $hash => $file) {
                 if (!isset($counts[$file])) {
                     $counts[$file] = [];
                 }
-                if (!in_array($hash, $counts[$file])) {
-                    $counts[$file][] = $hash;
+                if (!isset($counts[$file][$hash])) {
+                    $counts[$file][$hash] = [];
                 }
+                $counts[$file][$hash][] = $release;
             }
         }
-        foreach ($counts as &$hashes) {
-            $hashes = count($hashes);
-        }
-        arsort($counts);
+        uasort($counts, function($a, $b) {
+            return count($b) - count($a);
+        });
         return $counts;
     }
 
@@ -154,16 +171,19 @@ class UniqueCommand extends MviCommand
     {
         list($edition, $version) = explode('-', $name);
         switch ($edition) {
-            case 'EE':
-                $edition = 'Enterprise';
+            case self::EDITION_SHORT_ENTERPRISE:
+                $edition = self::EDITION_SHORT_ENTERPRISE;
                 break;
-            case 'CE':
-                $edition = 'Community';
+            case self::EDITION_SHORT_COMMUNITY:
+                $edition = self::EDITION_LONG_COMMUNITY;
                 break;
         }
-        $existing = [
-            $edition,
-            isset($existing[1]) ? $existing[1] . ', ' . $version : $version
-        ];
+        if (!is_array($existing)) {
+            $existing = [];
+        }
+        if (!isset($existing[$edition])) {
+            $existing[$edition] = [];
+        }
+        $existing[$edition][] = $version;
     }
 }

@@ -57,8 +57,13 @@ class CheckCommand extends MviCommand
             $output->writeln('<error>Unable to retrieve Magento information</error>');
             return;
         }
-        list($edition, $version) = $info;
-        $output->writeln(sprintf('Edition: <info>%s</info>', $edition));
-        $output->writeln(sprintf('Version: <info>%s</info>', $version));
+        $i = 0;
+        foreach ($info as $edition => $versions) {
+            $output->writeln(sprintf('Edition: <info>%s</info>', $edition));
+            $output->writeln(sprintf('Version: <info>%s</info>', implode(', ', $versions)));
+            if ($i++ > 0) {
+                $output->writeln('OR');
+            }
+        }
     }
 }
