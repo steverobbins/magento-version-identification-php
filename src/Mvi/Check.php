@@ -72,9 +72,9 @@ class Check
 
     /**
      * Validate the URL to check
-     * 
+     *
      * @param string $url
-     * 
+     *
      * @return void
      */
     protected function validateUrl($url)

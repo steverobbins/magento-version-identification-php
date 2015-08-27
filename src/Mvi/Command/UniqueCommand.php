@@ -134,7 +134,7 @@ class UniqueCommand extends MviCommand
      *     ],
      *     ...
      * ]
-     * 
+     *
      * @param array $data
      *
      * @return array
@@ -153,7 +153,7 @@ class UniqueCommand extends MviCommand
                 $counts[$file][$hash][] = $release;
             }
         }
-        uasort($counts, function($a, $b) {
+        uasort($counts, function ($a, $b) {
             return count($b) - count($a);
         });
         return $counts;
