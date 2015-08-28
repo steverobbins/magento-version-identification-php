@@ -559,7 +559,6 @@ b6fc54e6632ce662b918b59fdf90364e js/firebug/firebug.css
 4c28612029b22c5ac1b2df9955a94ebc js/firebug/infoIcon.png
 29c7f33c47b148ff8e0213cc8c513638 js/firebug/warningIcon.png
 3e038cea960c1b650442b85cea237053 js/flash/AC_RunActiveContent.js
-778ab3d93979ed1336fe224dbf3b5511 js/index.php
 5034704a76cd55c1cbcbc58ea6bf523f js/jscolor/arrow.gif
 ba9a274b9323753cd95bc3b1eb2f4e5f js/jscolor/cross.gif
 edf71251cb2be20322d2efb00aee86a6 js/jscolor/demo.html
@@ -1119,10 +1118,7 @@ fab6d352a0694874653374b55661a99e js/varien/menu.js
 49d633a3d7bfa6c48b6b668a25de5c43 js/varien/product.js
 c5199440f045d01b7b063db944bc9d97 js/varien/telephone.js
 2e73a35e4b8cad7485fa85ceb9bbf312 js/varien/weee.js
-08de5b2f5ea1ce6f51f40a19bacbf42e media/.htaccess
-72617d60821288133a367f70bf39ad93 media/customer/.htaccess
 68500df59e568e01333ba078a262ca27 media/dhl/logo.jpg
-72617d60821288133a367f70bf39ad93 media/downloadable/.htaccess
 398f81b3983f802a99932eaf97ee0806 media/xmlconnect/custom/ok.gif
 398f81b3983f802a99932eaf97ee0806 media/xmlconnect/original/ok.gif
 398f81b3983f802a99932eaf97ee0806 media/xmlconnect/system/ok.gif
@@ -2336,7 +2332,6 @@ b4076e7371439fdb77cb79db95fd58b0 skin/frontend/rwd/default/js/minicart.js
 e91184b129b72cabf73a5d92bb6ee490 skin/frontend/rwd/default/js/msrp_rwd.js
 a3e6ca47982e400125d8e139f012d30f skin/frontend/rwd/default/js/opcheckout_rwd.js
 c8453a5013539ec393f3b542f076e773 skin/frontend/rwd/default/js/slideshow.js
-72617d60821288133a367f70bf39ad93 skin/frontend/rwd/default/scss/.htaccess
 78ab4d1f18aad5fb7c6e6b47d0937fe4 skin/frontend/rwd/default/scss/_core.scss
 a60080a7062a50ae9b303b933fa748be skin/frontend/rwd/default/scss/_framework.scss
 7dae021034dfb6978a641236e794b0b1 skin/frontend/rwd/default/scss/_var.scss
@@ -2411,7 +2406,6 @@ a87b006a57c666a313b245ed315eacb4 skin/frontend/rwd/enterprise/images/reward_poin
 f54f37273f22d54588a0311f4fb8591b skin/frontend/rwd/enterprise/js/enterprise/catalogevent.js
 029f6d23b4f643c62660afeba65e6b29 skin/frontend/rwd/enterprise/js/enterprise/wishlist.js
 b9f47d90015c9eed932532ad88463f4b skin/frontend/rwd/enterprise/js/scripts.js
-72617d60821288133a367f70bf39ad93 skin/frontend/rwd/enterprise/scss/.htaccess
 1130994bec6ffd696ceddc627470fc53 skin/frontend/rwd/enterprise/scss/_core.scss
 969be0218a4556b6c00d679c7b620711 skin/frontend/rwd/enterprise/scss/config.rb
 4a9e214b5868e72502c1a341a8c19cfb skin/frontend/rwd/enterprise/scss/enterprise-ie8.scss

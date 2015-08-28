@@ -32,6 +32,15 @@ class GenerateCommand extends MviCommand
     protected $hashFolders = ['js', 'media', 'skin'];
 
     /**
+     * Patterns of file that are of no use here
+     *
+     * @var string[]
+     */
+    protected $fileIgnorePatterns = [
+        "/\.(htaccess|php)$/",
+    ];
+
+    /**
      * Configure generate command
      *
      * @return void
@@ -104,6 +113,11 @@ class GenerateCommand extends MviCommand
         foreach ($this->hashFolders as $folder) {
             $files = $this->getFiles($release, $folder);
             foreach ($files as $file) {
+                foreach ($this->fileIgnorePatterns as $pattern) {
+                    if (preg_match($pattern, $file)) {
+                        continue 2;
+                    }
+                }
                 $hashes[] = $this->getHash($release, $file);
             }
         }

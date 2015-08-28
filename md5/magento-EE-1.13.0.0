@@ -558,7 +558,6 @@ b6fc54e6632ce662b918b59fdf90364e js/firebug/firebug.css
 4c28612029b22c5ac1b2df9955a94ebc js/firebug/infoIcon.png
 29c7f33c47b148ff8e0213cc8c513638 js/firebug/warningIcon.png
 3e038cea960c1b650442b85cea237053 js/flash/AC_RunActiveContent.js
-e6f287f5fb5f8e9550314770938bcb1b js/index.php
 5034704a76cd55c1cbcbc58ea6bf523f js/jscolor/arrow.gif
 ba9a274b9323753cd95bc3b1eb2f4e5f js/jscolor/cross.gif
 edf71251cb2be20322d2efb00aee86a6 js/jscolor/demo.html
@@ -1107,10 +1106,7 @@ ab4783bf50c68c9119e9c44fe060b1fc js/varien/iehover-fix.js
 1af9e34888a76d752619e1d01af6cd93 js/varien/product.js
 8f98e68700f52fe8822d168a303949db js/varien/telephone.js
 6cb8a81b4952bed9a60ab24f38b9f519 js/varien/weee.js
-08de5b2f5ea1ce6f51f40a19bacbf42e media/.htaccess
-72617d60821288133a367f70bf39ad93 media/customer/.htaccess
 68500df59e568e01333ba078a262ca27 media/dhl/logo.jpg
-72617d60821288133a367f70bf39ad93 media/downloadable/.htaccess
 398f81b3983f802a99932eaf97ee0806 media/xmlconnect/custom/ok.gif
 398f81b3983f802a99932eaf97ee0806 media/xmlconnect/original/ok.gif
 398f81b3983f802a99932eaf97ee0806 media/xmlconnect/system/ok.gif

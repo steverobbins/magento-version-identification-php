@@ -30,6 +30,11 @@ class UniqueCommand extends MviCommand
     const EDITION_LONG_ENTERPRISE  = 'Enterprise';
     const EDITION_LONG_COMMUNITY   = 'Community';
 
+    /**
+     * Patterns of file that might not be reliable
+     *
+     * @var string[]
+     */
     protected $fileIgnorePatterns = [
         "/\/rwd\//",
         "/[^(js|css)]$/",

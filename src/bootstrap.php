@@ -19,7 +19,7 @@ use Mvi\Command\GenerateCommand;
 use Mvi\Command\UniqueCommand;
 use Symfony\Component\Console\Application;
 
-$app = new Application('Magento Version Identification', '1.1.0');
+$app = new Application('Magento Version Identification', '1.1.1');
 
 $app->add(new CheckCommand);
 $app->add(new GenerateCommand);

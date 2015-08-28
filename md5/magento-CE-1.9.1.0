@@ -844,11 +844,7 @@ c1e5255bd358fcd5a0779a0cc310a2fe js/calendar/img.gif
 e3c61212e6abc28844005381d8fe9690 js/calendar/calendar-win2k-1.css
 b44e2c25ff56efaa6e37d84df202e5d5 js/calendar/calendar-green.css
 d41d8cd98f00b204e9800998ecf8427e js/blank.html
-9a76023de59c1958cac0473ef31efa26 js/index.php
 68500df59e568e01333ba078a262ca27 media/dhl/logo.jpg
-08de5b2f5ea1ce6f51f40a19bacbf42e media/.htaccess
-72617d60821288133a367f70bf39ad93 media/customer/.htaccess
-72617d60821288133a367f70bf39ad93 media/downloadable/.htaccess
 398f81b3983f802a99932eaf97ee0806 media/xmlconnect/original/ok.gif
 398f81b3983f802a99932eaf97ee0806 media/xmlconnect/custom/ok.gif
 398f81b3983f802a99932eaf97ee0806 media/xmlconnect/system/ok.gif
@@ -1963,7 +1959,6 @@ f8d901657af2d5fde2a4d7cf4ac322b7 skin/frontend/rwd/default/scss/content/_home.sc
 4f19a3deded95481220a8391230a04f6 skin/frontend/rwd/default/scss/content/_category.scss
 c3665ab4e361971cb6942be205c1a1f0 skin/frontend/rwd/default/scss/override/_plugin.scss
 860e6894fb00a52a6f12ed8dcb60ddf4 skin/frontend/rwd/default/scss/_var.scss
-72617d60821288133a367f70bf39ad93 skin/frontend/rwd/default/scss/.htaccess
 db52c960bcd3378d58eb22a1deb5fd97 skin/frontend/rwd/default/scss/_core.scss
 bd32ff1a301615e94f0b3c792c851c0f skin/frontend/rwd/default/scss/madisonisland.scss
 f2f95106bac4129b715908db3429dac2 skin/frontend/rwd/default/scss/core/_table.scss

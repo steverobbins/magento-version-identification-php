@@ -799,9 +799,6 @@ da368ae872efbf2394fbc9daadc4ab35 js/calendar/calendar.js
 e3c61212e6abc28844005381d8fe9690 js/calendar/calendar-win2k-1.css
 b44e2c25ff56efaa6e37d84df202e5d5 js/calendar/calendar-green.css
 d41d8cd98f00b204e9800998ecf8427e js/blank.html
-9a76023de59c1958cac0473ef31efa26 js/index.php
-c805c50ca2a803f4c210b81e4e983f20 media/.htaccess
-72617d60821288133a367f70bf39ad93 media/downloadable/.htaccess
 1ac2dcda9af262bc8041d072c0b3c52a skin/adminhtml/default/default/below_ie7.css
 d45948716e2dd828a40715b9a43e2115 skin/adminhtml/default/default/reset.css
 db77a54f0e6a7146cad6566eb200a0d5 skin/adminhtml/default/default/print.css
