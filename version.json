@@ -80,10 +80,69 @@
                 "1.14.2.0"
             ]
         },
+        "84b67457247969a206456565111c456b": {
+            "Community": [
+                "1.1.2.0",
+                "1.1.3.0",
+                "1.1.4.0"
+            ]
+        },
         "b17593f892e24469429ffd693573778c": {
             "Community": [
                 "1.1.7.0",
                 "1.1.8.0"
+            ]
+        },
+        "6aefb246b1bb817077e8fca6ae53bf2c": {
+            "Community": [
+                "1.2.0.0",
+                "1.2.0.1",
+                "1.2.0.2",
+                "1.2.0.3"
+            ]
+        },
+        "a2c7f9ddda846ba76220d7bcbe85c985": {
+            "Community": [
+                "1.2.1.0",
+                "1.2.1.1",
+                "1.2.1.2"
+            ]
+        },
+        "28b1eedec9811e496644257f610e2af3": {
+            "Community": [
+                "1.3.1.0",
+                "1.3.1.1"
+            ]
+        },
+        "18c9de4b13f66453034ca520b3208309": {
+            "Community": [
+                "1.3.2.0",
+                "1.3.2.1",
+                "1.3.2.3",
+                "1.3.2.4"
+            ]
+        },
+        "487698cbac89beffa9d2556cc681f571": {
+            "Community": [
+                "1.6.1.0",
+                "1.6.2.0"
+            ]
+        },
+        "5903fadb2d1344922df0aafb49791df8": {
+            "Community": [
+                "1.7.0.1",
+                "1.7.0.2"
+            ]
+        },
+        "4124f1904f8c3fb40675bbff6268d017": {
+            "Community": [
+                "1.9.0.0",
+                "1.9.0.1"
+            ]
+        },
+        "ba8dd746c8468bfd1cff5c77eadc71a4": {
+            "Community": [
+                "1.9.2.0"
             ]
         },
         "61e47784d7254e531bb6ce3991d68487": {
@@ -109,26 +168,6 @@
                 "1.14.0.0",
                 "1.14.0.1"
             ]
-        },
-        "84b67457247969a206456565111c456b": {
-            "Community": [
-                "1.1.2.0",
-                "1.1.3.0",
-                "1.1.4.0"
-            ]
-        },
-        "a2c7f9ddda846ba76220d7bcbe85c985": {
-            "Community": [
-                "1.2.1.0",
-                "1.2.1.1",
-                "1.2.1.2"
-            ]
-        },
-        "18c9de4b13f66453034ca520b3208309": {
-            "Community": [
-                "1.3.2.0",
-                "1.3.2.1"
-            ]
         }
     },
     "js/mage/adminhtml/sales.js": {
@@ -150,43 +189,6 @@
         "a0436f1eee62dded68e0ec860baeb699": {
             "Community": [
                 "1.9.1.0"
-            ]
-        },
-        "d1bfb9f8d4c83e4a6a826d2356a97fd7": {
-            "Community": [
-                "1.3.1.0",
-                "1.3.1.1"
-            ]
-        },
-        "48d609bb2958b93d7254c13957b704c4": {
-            "Community": [
-                "1.6.1.0",
-                "1.6.2.0"
-            ]
-        },
-        "1cb6e72078c384df2d62745e34060fed": {
-            "Community": [
-                "1.9.0.0",
-                "1.9.0.1"
-            ]
-        }
-    },
-    "js/mage/adminhtml/tools.js": {
-        "ea81bcf8d9b8fcddb27fb9ec7f801172": {
-            "Community": [
-                "1.3.2.2"
-            ]
-        },
-        "86bbebe2745581cd8f613ceb5ef82269": {
-            "Community": [
-                "1.7.0.1",
-                "1.7.0.2"
-            ]
-        },
-        "d594237950932b9a3948288a020df1ba": {
-            "Community": [
-                "1.3.2.3",
-                "1.3.2.4"
             ]
         }
     },
@@ -214,25 +216,30 @@
             ]
         }
     },
-    "skin/frontend/default/default/css/boxes.css": {
-        "33c5479bdb99680961348361b4e1d560": {
+    "static/frontend/Magento/luma/en_US/Magento_Customer/css/source/_module.less": {
+        "19f2f971d15d5f1e6c5adf665cd246f6": {
             "Community": [
-                "1.2.0.0",
-                "1.2.0.1",
-                "1.2.0.2",
-                "1.2.0.3"
+                "2.0.0"
             ]
         }
     },
-    "skin/frontend/default/blue/css/styles.css": {
-        "5d16eff98db6680c68f70e1f653cc1c0": {
+    "skin/install/default/default/css/custom.css": {
+        "028bdd180f6b6afc2e6bedfbf62fd479": {
             "Community": [
-                "1.9.2.0"
+                "1.1.5.0",
+                "1.1.6.0"
             ]
         }
     },
-    "js/mage/translate_inline.js": {
-        "913b5412af26c3bb060b93a478beadc8": {
+    "pub/static/adminhtml/Magento/backend/en_US/Magento_GroupedProduct/js/grouped-product.js": {
+        "690ed84f84529f2fb8ce5bc3dc8424f9": {
+            "Community": [
+                "2.0.0"
+            ]
+        }
+    },
+    "js/mage/adminhtml/form.js": {
+        "55bf99ca0637cea2692aa3f455b8397f": {
             "Community": [
                 "1.9.1.1"
             ]
@@ -245,11 +252,10 @@
             ]
         }
     },
-    "skin/install/default/default/css/custom.css": {
-        "028bdd180f6b6afc2e6bedfbf62fd479": {
+    "js/mage/adminhtml/tools.js": {
+        "ea81bcf8d9b8fcddb27fb9ec7f801172": {
             "Community": [
-                "1.1.5.0",
-                "1.1.6.0"
+                "1.3.2.2"
             ]
         }
     }

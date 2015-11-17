@@ -29,7 +29,7 @@ class GenerateCommand extends MviCommand
      *
      * @var string[]
      */
-    protected $hashFolders = ['js', 'media', 'skin'];
+    protected $hashFolders = ['js', 'media', 'pub' . DS . 'static', 'skin', 'static'];
 
     /**
      * Patterns of file that are of no use here
@@ -137,15 +137,17 @@ class GenerateCommand extends MviCommand
      */
     protected function getFiles($release, $folder)
     {
-        $path      = $this->baseDir . DS . self::DIR_RELEASE . DS . $release . DS;
-        $directory = new \RecursiveDirectoryIterator($path . $folder . DS);
-        $iterator  = new \RecursiveIteratorIterator($directory);
-        $matches   = [];
-        foreach ($iterator as $file) {
-            if (in_array($file->getFilename(), array('.', '..'))) {
-                continue;
+        $path    = $this->baseDir . DS . self::DIR_RELEASE . DS . $release . DS;
+        $matches = [];
+        if (is_dir($path . $folder)) {
+            $directory = new \RecursiveDirectoryIterator($path . $folder . DS);
+            $iterator  = new \RecursiveIteratorIterator($directory);
+            foreach ($iterator as $file) {
+                if (in_array($file->getFilename(), array('.', '..'))) {
+                    continue;
+                }
+                $matches[] = str_replace($path, '', (string) $file);
             }
-            $matches[] = str_replace($path, '', (string) $file);
         }
         return $matches;
     }
