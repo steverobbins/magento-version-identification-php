@@ -29,7 +29,13 @@ class GenerateCommand extends MviCommand
      *
      * @var string[]
      */
-    protected $hashFolders = ['js', 'media', 'pub' . DS . 'static', 'skin', 'static'];
+    protected $hashFolders = [
+        'js',
+        'media',
+        'pub/static',
+        'skin',
+        'static'
+    ];
 
     /**
      * Patterns of file that are of no use here

@@ -40,6 +40,11 @@
                 "1.7.0.0"
             ]
         },
+        "8d7c0d6a023b476ff87c5d2b03a0cfa8": {
+            "Community": [
+                "1.9.2.3"
+            ]
+        },
         "dd6fbd6cc6376045b3a62a823af9a361": {
             "Enterprise": [
                 "1.10.0.2"
@@ -216,25 +221,35 @@
             ]
         }
     },
-    "static/frontend/Magento/luma/en_US/Magento_Customer/css/source/_module.less": {
-        "19f2f971d15d5f1e6c5adf665cd246f6": {
+    "static/frontend/Magento/luma/en_US/Magento_Ui/js/grid/controls/bookmarks/storage.js": {
+        "b51399c66d666c41395296ebd1d23306": {
             "Community": [
                 "2.0.0"
             ]
+        },
+        "71d620c5adaca6950c8feb5dc6f9e0dc": {
+            "Community": [
+                "2.0.1"
+            ]
         }
     },
-    "skin/install/default/default/css/custom.css": {
-        "028bdd180f6b6afc2e6bedfbf62fd479": {
+    "pub/static/frontend/Magento/luma/en_US/Magento_Ui/js/lib/view/utils/async.js": {
+        "109f03a9008af5672a0032b4fd65937b": {
+            "Community": [
+                "2.0.0"
+            ]
+        },
+        "83425a1ca449ce07f431582f60b32276": {
+            "Community": [
+                "2.0.1"
+            ]
+        }
+    },
+    "skin/frontend/default/blue/css/reset.css": {
+        "adbc86523ba762d194a3300ecc34a63c": {
             "Community": [
                 "1.1.5.0",
                 "1.1.6.0"
-            ]
-        }
-    },
-    "pub/static/adminhtml/Magento/backend/en_US/Magento_GroupedProduct/js/grouped-product.js": {
-        "690ed84f84529f2fb8ce5bc3dc8424f9": {
-            "Community": [
-                "2.0.0"
             ]
         }
     },
