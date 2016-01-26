@@ -57,10 +57,7 @@ class Check
      */
     public function getInfo()
     {
-        $versions = json_decode(
-            file_get_contents(dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'version.json'),
-            true
-        );
+        $versions = $this->getVersions();
         foreach ($versions as $file => $hash) {
             $md5 = md5(@file_get_contents($this->url . $file));
             if (isset($hash[$md5])) {
@@ -68,6 +65,19 @@ class Check
             }
         }
         return false;
+    }
+
+    /**
+     * Get version information from json
+     *
+     * @return array
+     */
+    public function getVersions()
+    {
+        return json_decode(
+            file_get_contents(dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'version.json'),
+            true
+        );
     }
 
     /**
