@@ -32,7 +32,7 @@ class CheckCommand extends MviCommand
     {
         $this
             ->setName('check')
-            ->setDescription('Generate MD5 hashes from locally stored releases')
+            ->setDescription('Check site\'s Magento version')
             ->addArgument(
                 'url',
                 InputArgument::REQUIRED,
