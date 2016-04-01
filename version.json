@@ -198,27 +198,20 @@
             ]
         }
     },
-    "pub/static/frontend/Magento/luma/en_US/js/bundle/bundle0.js": {
-        "6abe831387a5941716e88d37517b7d9f": {
+    "pub/static/_requirejs/frontend/Magento/luma/en_US/requirejs-config.js": {
+        "625977b7e317f2fea2c5ef95115e24fe": {
             "Community": [
                 "2.0.0"
             ]
         },
-        "370ff03ba520bc8cbabae78d6d3601b4": {
-            "ce": [
-                "2.0.3"
-            ]
-        }
-    },
-    "static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js": {
-        "8140d92726c186d39e98e31bb0021621": {
-            "Community": [
-                "2.0.0"
-            ]
-        },
-        "9e0c28c4a5d3cc2335a9762ffec7a3ab": {
+        "f4b221ed3ecf1fda4a555dcb871dd8e4": {
             "Community": [
                 "2.0.1"
+            ]
+        },
+        "fb6fc8edd6d13df6475c3e7916e8e5ea": {
+            "Community": [
+                "2.0.2"
             ]
         }
     },
@@ -246,32 +239,35 @@
             ]
         }
     },
-    "static/adminhtml/Magento/backend/en_US/Magento_Catalog/js/new-category-dialog.js": {
-        "ad28c4a7bbffadd75b9b7364fb2bea54": {
-            "Community": [
-                "2.0.2"
-            ]
-        }
-    },
-    "pub/static/frontend/Magento/luma/en_US/Magento_Checkout/js/view/shipping-information/address-renderer/default.js": {
-        "4e568f5d5eb181cd0034efb47ed29cc2": {
-            "Community": [
-                "2.0.2"
-            ]
-        }
-    },
-    "skin/frontend/default/blue/css/reset.css": {
-        "adbc86523ba762d194a3300ecc34a63c": {
+    "skin/frontend/default/blue/css/ie7minus.css": {
+        "92e01e3574aa78b0a3b92bfb8b1c3b28": {
             "Community": [
                 "1.1.5.0",
                 "1.1.6.0"
             ]
         }
     },
-    "static/frontend/Magento/luma/en_US/js/bundle/bundle0.js": {
-        "370ff03ba520bc8cbabae78d6d3601b4": {
-            "ce": [
-                "2.0.3"
+    "static/frontend/Magento/luma/en_US/Magento_Customer/change-email-password.js": {
+        "960e7f357f9db17a5c179da91926b2ec": {
+            "Community": [
+                "2.0.3",
+                "2.0.3",
+                "2.0.4",
+                "2.0.4"
+            ]
+        }
+    },
+    "static/frontend/Magento/luma/en_US/Magento_Ui/js/view/messages.js": {
+        "f391a80a29cf5d675794013266ca2cc2": {
+            "Community": [
+                "2.0.2"
+            ]
+        }
+    },
+    "static/_requirejs/frontend/Magento/luma/en_US/requirejs-config.js": {
+        "f4b221ed3ecf1fda4a555dcb871dd8e4": {
+            "Community": [
+                "2.0.1"
             ]
         }
     },
@@ -289,10 +285,10 @@
             ]
         }
     },
-    "pub/static/frontend/Magento/luma/en_US/Magento_Customer/js/customer-data.js": {
-        "10134ca2c07663a53dc5444bddaf2c00": {
+    "static/adminhtml/Magento/backend/en_US/js/bundle/bundle0.js": {
+        "dc3d01c0420d25dc8a70a871446e6f8e": {
             "Community": [
-                "2.0.1"
+                "2.0.0"
             ]
         }
     },
