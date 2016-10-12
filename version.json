@@ -40,6 +40,11 @@
                 "1.7.0.0"
             ]
         },
+        "e79018e9c03a3deb366d7df7c50e95ec": {
+            "Community": [
+                "1.9.3.0"
+            ]
+        },
         "dd6fbd6cc6376045b3a62a823af9a361": {
             "Enterprise": [
                 "1.10.0.2"
@@ -215,18 +220,6 @@
             ]
         }
     },
-    "js/lib/flex.js": {
-        "eb84fc6c93a9d27823dde31946be8767": {
-            "Community": [
-                "1.4.0.0"
-            ]
-        },
-        "4040182326f3836f98acabfe1d507960": {
-            "Community": [
-                "1.4.0.1"
-            ]
-        }
-    },
     "js/prototype/validation.js": {
         "295494d0966637bdd03e4ec17c2f338c": {
             "Community": [
@@ -239,11 +232,27 @@
             ]
         }
     },
-    "skin/frontend/default/blue/css/ie7minus.css": {
-        "92e01e3574aa78b0a3b92bfb8b1c3b28": {
+    "static/_requirejs/frontend/Magento/luma/en_US/requirejs-config.js": {
+        "625977b7e317f2fea2c5ef95115e24fe": {
             "Community": [
-                "1.1.5.0",
-                "1.1.6.0"
+                "2.0.0"
+            ]
+        },
+        "f4b221ed3ecf1fda4a555dcb871dd8e4": {
+            "Community": [
+                "2.0.1"
+            ]
+        }
+    },
+    "js/lib/flex.js": {
+        "eb84fc6c93a9d27823dde31946be8767": {
+            "Community": [
+                "1.4.0.0"
+            ]
+        },
+        "4040182326f3836f98acabfe1d507960": {
+            "Community": [
+                "1.4.0.1"
             ]
         }
     },
@@ -257,17 +266,18 @@
             ]
         }
     },
-    "static/frontend/Magento/luma/en_US/Magento_Ui/js/view/messages.js": {
-        "f391a80a29cf5d675794013266ca2cc2": {
+    "static/frontend/Magento/luma/en_US/Magento_Weee/tax-toggle.js": {
+        "1c44cfc97e08f7c57293910a8c721669": {
             "Community": [
                 "2.0.2"
             ]
         }
     },
-    "static/_requirejs/frontend/Magento/luma/en_US/requirejs-config.js": {
-        "f4b221ed3ecf1fda4a555dcb871dd8e4": {
+    "skin/frontend/default/blue/css/menu.css": {
+        "13ab0121d63ecf16d6696478b9a63b94": {
             "Community": [
-                "2.0.1"
+                "1.1.5.0",
+                "1.1.6.0"
             ]
         }
     },
@@ -282,13 +292,6 @@
         "e887acfc2f7af09e04f8e99ac6f7180d": {
             "Community": [
                 "1.3.0.0"
-            ]
-        }
-    },
-    "static/adminhtml/Magento/backend/en_US/js/bundle/bundle0.js": {
-        "dc3d01c0420d25dc8a70a871446e6f8e": {
-            "Community": [
-                "2.0.0"
             ]
         }
     },
