@@ -40,6 +40,11 @@
                 "1.7.0.0"
             ]
         },
+        "05c27c288ade60aa2c4a8b02c1bddf64": {
+            "Community": [
+                "1.9.3.2"
+            ]
+        },
         "dd6fbd6cc6376045b3a62a823af9a361": {
             "Enterprise": [
                 "1.10.0.2"
@@ -232,13 +237,13 @@
             ]
         }
     },
-    "static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js": {
-        "8140d92726c186d39e98e31bb0021621": {
+    "static/_requirejs/frontend/Magento/luma/en_US/requirejs-config.js": {
+        "625977b7e317f2fea2c5ef95115e24fe": {
             "Community": [
                 "2.0.0"
             ]
         },
-        "9e0c28c4a5d3cc2335a9762ffec7a3ab": {
+        "f4b221ed3ecf1fda4a555dcb871dd8e4": {
             "Community": [
                 "2.0.1"
             ]
@@ -256,13 +261,11 @@
             ]
         }
     },
-    "static/frontend/Magento/luma/en_US/Magento_Paypal/js/in-context/button.js": {
-        "142b7f423ff3240afa173fe8523d76c7": {
+    "js/lib/uploader/fusty-flow.js": {
+        "302f440908837093fd4e9b6e76ec01e0": {
             "Community": [
-                "2.0.3",
-                "2.0.3",
-                "2.0.4",
-                "2.0.4"
+                "1.9.3.0",
+                "1.9.3.1"
             ]
         }
     },
@@ -273,16 +276,18 @@
             ]
         }
     },
-    "js/mage/adminhtml/uploader/instance.js": {
-        "cd80adb50e15f551ca4a6a6f9ff017de": {
+    "static/frontend/Magento/luma/en_US/Magento_Paypal/js/in-context/button.js": {
+        "142b7f423ff3240afa173fe8523d76c7": {
             "Community": [
-                "1.9.3.0",
-                "1.9.3.1"
+                "2.0.3",
+                "2.0.3",
+                "2.0.4",
+                "2.0.4"
             ]
         }
     },
-    "skin/frontend/default/blue/css/ie7minus.css": {
-        "92e01e3574aa78b0a3b92bfb8b1c3b28": {
+    "skin/frontend/default/blue/css/reset.css": {
+        "adbc86523ba762d194a3300ecc34a63c": {
             "Community": [
                 "1.1.5.0",
                 "1.1.6.0"
