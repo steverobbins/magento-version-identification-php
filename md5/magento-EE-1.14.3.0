@@ -100,7 +100,6 @@
 08361df29783d46a2493cf0d8ad733a7 skin/adminhtml/default/default/images/window_content.png
 08361df29783d46a2493cf0d8ad733a7 skin/adminhtml/default/enterprise/images/window_content.png
 0843612e6e68574d0fa020af1068fd64 js/extjs/resources/images/gray/basic-dialog/collapse.gif
-08de5b2f5ea1ce6f51f40a19bacbf42e media/.htaccess
 09438b2169e98f30bcd075dc1232550f js/extjs/package/menu/menus.js
 096b511bdad43bbdc81b8c63bd349cdd skin/frontend/rwd/enterprise/scss/module/_enterprise-wishlist.scss
 097ab8a3051bc037ea3de0e17f440540 skin/frontend/base/default/images/catalog/product/placeholder/image.jpg
@@ -1055,10 +1054,6 @@
 71edc3f63f79f447d2c81ee09e1fbbc3 js/extjs/resources/images/default/sizer/se-handle.gif
 71f504ef7d262415238ba54d37b18baa skin/frontend/enterprise/default/images/bkg_nav-crumbs.gif
 72317437bb3c7f0a05302658ea19dfce js/tiny_mce/classes/html/Styles.js
-72617d60821288133a367f70bf39ad93 media/customer/.htaccess
-72617d60821288133a367f70bf39ad93 media/downloadable/.htaccess
-72617d60821288133a367f70bf39ad93 skin/frontend/rwd/default/scss/.htaccess
-72617d60821288133a367f70bf39ad93 skin/frontend/rwd/enterprise/scss/.htaccess
 726f36dd75b5a709a1a14acab1660188 skin/frontend/enterprise/default/images/media/about_us_img.jpg
 7271d976f793f5abf294e949d8546adf skin/frontend/enterprise/default/js/iehover-fix.js
 728f1cd358446881ffd863eff12204a1 skin/adminhtml/default/default/images/xmlconnect/mobile_preview/ipad/bg_filter_button.png
