@@ -222,28 +222,6 @@
             ]
         }
     },
-    "skin/frontend/base/default/js/opcheckout.js": {
-        "12372b489c53f35053dddf05aa3eacdd": {
-            "Community": [
-                "1.9.3.2"
-            ]
-        },
-        "6bd674d910b9ff3c5a1f5c3fee2610d5": {
-            "Community": [
-                "1.9.3.3"
-            ]
-        },
-        "dfb044ff6990969126bf5396947ec0bc": {
-            "Enterprise": [
-                "1.14.3.2"
-            ]
-        },
-        "1978366be99ca63c27c2117d1cb65a76": {
-            "Enterprise": [
-                "1.14.3.3"
-            ]
-        }
-    },
     "pub/static/frontend/Magento/luma/en_US/Magento_Customer/js/customer-data.js": {
         "426087ad2d586c2d2a8f37db856efd52": {
             "Community": [
@@ -261,27 +239,15 @@
             ]
         }
     },
-    "static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js": {
-        "8140d92726c186d39e98e31bb0021621": {
+    "skin/frontend/base/default/js/opcheckout.js": {
+        "12372b489c53f35053dddf05aa3eacdd": {
             "Community": [
-                "2.0.0"
+                "1.9.3.2"
             ]
         },
-        "9e0c28c4a5d3cc2335a9762ffec7a3ab": {
-            "Community": [
-                "2.0.1"
-            ]
-        }
-    },
-    "js/prototype/validation.js": {
-        "295494d0966637bdd03e4ec17c2f338c": {
-            "Community": [
-                "1.4.1.0"
-            ]
-        },
-        "d3252becf15108532d21d45dced96d53": {
-            "Community": [
-                "1.4.1.1"
+        "dfb044ff6990969126bf5396947ec0bc": {
+            "Enterprise": [
+                "1.14.3.2"
             ]
         }
     },
@@ -297,28 +263,39 @@
             ]
         }
     },
-    "static/frontend/Magento/luma/en_US/Magento_Customer/change-email-password.js": {
-        "960e7f357f9db17a5c179da91926b2ec": {
+    "js/prototype/validation.js": {
+        "295494d0966637bdd03e4ec17c2f338c": {
             "Community": [
-                "2.0.3",
-                "2.0.3",
-                "2.0.4",
-                "2.0.4"
+                "1.4.1.0"
+            ]
+        },
+        "d3252becf15108532d21d45dced96d53": {
+            "Community": [
+                "1.4.1.1"
             ]
         }
     },
-    "static/frontend/Magento/luma/en_US/Magento_Theme/prototype/magento.css": {
-        "e2d4ef7be0d0dbaa769e3b984f18e5a4": {
-            "Community": [
-                "2.0.2"
+    "skin/frontend/enterprise/default/js/opcheckout.js": {
+        "646f06b35b0f6e6781c07df7a4e4e7c7": {
+            "Enterprise": [
+                "1.14.3.3"
+            ]
+        },
+        "500a25f1f51aef9e10728124fe6b29f5": {
+            "Enterprise": [
+                "1.14.3.4"
             ]
         }
     },
-    "skin/frontend/default/blue/css/reset.css": {
-        "adbc86523ba762d194a3300ecc34a63c": {
+    "static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js": {
+        "8140d92726c186d39e98e31bb0021621": {
             "Community": [
-                "1.1.5.0",
-                "1.1.6.0"
+                "2.0.0"
+            ]
+        },
+        "9e0c28c4a5d3cc2335a9762ffec7a3ab": {
+            "Community": [
+                "2.0.1"
             ]
         }
     },
@@ -329,13 +306,6 @@
             ]
         }
     },
-    "js/mage/adminhtml/form.js": {
-        "55bf99ca0637cea2692aa3f455b8397f": {
-            "Community": [
-                "1.9.1.1"
-            ]
-        }
-    },
     "js/mage/adminhtml/product.js": {
         "e887acfc2f7af09e04f8e99ac6f7180d": {
             "Community": [
@@ -343,10 +313,50 @@
             ]
         }
     },
+    "js/mage/adminhtml/form.js": {
+        "55bf99ca0637cea2692aa3f455b8397f": {
+            "Community": [
+                "1.9.1.1"
+            ]
+        }
+    },
     "skin/adminhtml/default/default/below_ie7.css": {
         "e25bd636a8f9ecc6d25d22a752502042": {
             "Enterprise": [
                 "1.14.2.0"
+            ]
+        }
+    },
+    "skin/frontend/default/blue/css/ie7minus.css": {
+        "92e01e3574aa78b0a3b92bfb8b1c3b28": {
+            "Community": [
+                "1.1.5.0",
+                "1.1.6.0"
+            ]
+        }
+    },
+    "static/adminhtml/Magento/backend/en_US/Magento_Downloadable/js/components/is-downloadable-handler.js": {
+        "7ed6057d604f72919bbea217f9831e17": {
+            "Community": [
+                "2.0.3",
+                "2.0.3",
+                "2.0.4",
+                "2.0.4"
+            ]
+        }
+    },
+    "js/lib/jquery/jquery-1.12.0.js": {
+        "cd0095b52c4242a8aea3ae91aba35ea8": {
+            "Community": [
+                "1.9.3.3",
+                "1.9.3.4"
+            ]
+        }
+    },
+    "static/frontend/Magento/luma/en_US/Magento_Ui/js/model/messageList.js": {
+        "c4ac6d653f423fbd7f9d8ea8f2837465": {
+            "Community": [
+                "2.0.2"
             ]
         }
     }
